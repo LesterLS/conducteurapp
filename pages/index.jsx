@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import { Button, Card, Checkbox, Input } from 'semantic-ui-react';
-import Button from '../components/ui/Button';
-import Card from '../components/ui/Card';
-import Checkbox from '../components/ui/Checkbox';
-import Input from '../components/ui/Input';
 import supabase from '../lib/supabaseClient';
+
+// Remove imports of your own UI components and remove the second supabase creation
+
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
