@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { createClient } from '@supabase/supabase-js';
 import { Button, Card, Checkbox, Input } from 'semantic-ui-react';
 import supabase from '../lib/supabaseClient';
+
 
 // Remove imports of your own UI components and remove the second supabase creation
 
